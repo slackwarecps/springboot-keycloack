@@ -49,7 +49,7 @@ class SecurityConfig extends KeycloakWebSecurityConfigurerAdapter {
         logger.info("passou no kc: SecurityConfig >> configure");
         http.authorizeRequests()
                 .antMatchers("/customers*")
-                .hasRole("role_ninja")
+                .hasRole("role_chapeiro")
                 .anyRequest()
                 .permitAll();
     }
