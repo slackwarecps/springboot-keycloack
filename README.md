@@ -12,6 +12,10 @@ realm:
 * user1
 * user2
 
+## senha
+
+12345678
+
 
 ## roles:
  - role_chapeiro
